@@ -1,6 +1,9 @@
 body{
     background-image: url("wallpaper.jpg");
     color: white;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 52px;
 }
 
 h1 , h2, h3, p{
