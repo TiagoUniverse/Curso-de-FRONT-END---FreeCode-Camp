@@ -1,9 +1,8 @@
 body{
     background-image: url("wallpaper.jpg");
+    font-family: sans-serif;
     color: white;
-    padding-left: 635px;
-    padding-right: 635px;
-    padding-top: 52px;
+    padding: 20px;
     
 }
 
@@ -13,16 +12,11 @@ h1 , h2, h3, p{
 
 .mainDiv{
     background-color:#599cd1;
+    width: 80%;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left:auto;
 }
-
-
-
-
-.mainDiv li{
-    /* background-color: red; */
-    margin-left: 5.5cm;
-}
-
 
 /* FOOTER */
 footer a{
