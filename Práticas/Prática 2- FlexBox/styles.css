@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f5f6f7;
+}
+
+header{
+    text-align: center;
+    /* text-transform: uppercase; */
+    padding: 32px;
+    background-color: #102947;
+    color: white;
+    border-bottom: 4px solid #fcacac;
+}
+
+.gallery img{
+    width: 100%;
+    max-width: 270px;
+    /* height: 250px; */
+    object-fit: cover;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3.5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
