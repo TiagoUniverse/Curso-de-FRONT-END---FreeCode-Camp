@@ -23,6 +23,11 @@
       <input type="hidden" name="tipo_registro" value="Registros da casa">
       <button type="submit" class="nav-bar-desmarcado">Registros da casa</button>
     </form>
+    <select>
+      <option>Tiago</option>
+      <option>Alterar senha</option>
+      <option>Sair</option>
+    </select>
   </div>
   <form method="POST" action="home.php" class="input-pesquisar">
     <select name="ano">
