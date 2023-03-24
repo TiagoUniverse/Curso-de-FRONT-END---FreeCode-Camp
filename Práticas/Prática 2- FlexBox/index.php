@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="styles.css" rel="stylesheet">
+  <link href="dropdown.css" rel="stylesheet">
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
   integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
   <title>Controle monetário</title>
@@ -23,11 +24,14 @@
       <input type="hidden" name="tipo_registro" value="Registros da casa">
       <button type="submit" class="nav-bar-desmarcado">Registros da casa</button>
     </form>
-    <select>
-      <option>Tiago</option>
-      <option>Alterar senha</option>
-      <option>Sair</option>
-    </select>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
   </div>
   <form method="POST" action="home.php" class="input-pesquisar">
     <select name="ano">

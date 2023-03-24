@@ -8,6 +8,10 @@ body{
     background-color: #f5f6f7;
 }
 
+button{
+    cursor: pointer;
+}
+
 header{
     text-align: center;
     /* text-transform: uppercase; */
@@ -72,7 +76,6 @@ footer{
     border: 1px solid #1fe098;
     border-radius: 5px;
     padding: 5px;
-    cursor: pointer;
 }
 
 /* NAV-BAR */
