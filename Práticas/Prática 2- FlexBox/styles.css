@@ -37,6 +37,10 @@ header{
 }
 
 
+.gallery::after{
+    
+}
+
 /* FOOTER */
 footer{
     background-color: black;
