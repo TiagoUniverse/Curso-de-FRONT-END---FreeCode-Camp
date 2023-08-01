@@ -1,12 +1,29 @@
-
 *, ::before, ::after{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  background-color: red;
+}
 
-#inicio{
-  margin: auto;
-  width: 500px;
+
+
+/* #nav-bar{
+  font-size: 25px;
+} */
+
+
+#page-wrapper{
+  position: relative;
+  margin-top: 75px;
 }
