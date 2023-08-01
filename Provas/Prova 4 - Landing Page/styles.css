@@ -13,14 +13,20 @@ header{
   padding: 0px 20px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: red;
 }
 
+.logo-and-title{
+  display: flex;
+  align-items: center;
+}
 
-
-/* #nav-bar{
+#nav-bar a{
   font-size: 25px;
-} */
+  text-decoration: none;
+  color:  black;
+}
 
 
 #page-wrapper{
