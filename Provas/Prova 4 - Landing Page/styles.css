@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background: linear-gradient(92deg, white, antiquewhite);
 }
 
 /* Header */
@@ -15,7 +16,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0px 20px;
-  background-color: red;
+  background: linear-gradient( 181deg, #80FFDB, #5390D9);
   height: 75px;
   top: 0;
   right: 0;
