@@ -1,35 +1,57 @@
-*, ::before, ::after{
+*, ::before, ::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-header{
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 75px;
-  padding: 0px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0px 20px;
   background-color: red;
+  height: 75px;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
-.logo-and-title{
+.logo-and-title {
   display: flex;
   align-items: center;
 }
 
-#nav-bar a{
+#nav-bar a {
   font-size: 25px;
   text-decoration: none;
-  color:  black;
+  color: black;
 }
 
-
-#page-wrapper{
+/* Page wrapper */
+#page-wrapper {
   position: relative;
-  margin-top: 75px;
+  margin-top: 95px; /* No mínimo 75px */
+}
+
+/* Tudo */
+.tudo {
+  margin: auto;
+  width: 500px;
+}
+
+/* Início - Formulário */
+#inicio {
+  display: block;
+  background-color: purple;
+  text-align: center;
+}
+
+#inicio form{
+  background-color: pink;
 }
