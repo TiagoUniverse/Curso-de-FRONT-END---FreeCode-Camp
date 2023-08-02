@@ -47,11 +47,24 @@ header {
 
 /* Início - Formulário */
 #inicio {
-  display: block;
-  background-color: purple;
-  text-align: center;
+  background-color: pink;
 }
 
-#inicio form{
-  background-color: pink;
+#inicio h2,
+#inicio input{
+  display: block;
+  margin: 18px auto;
+} 
+
+#inicio form input[type="submit"] {
+  width: 300px;
+}
+
+#inicio form input[type="email"]{
+  width: 300px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px black;
+  border: black;
 }
