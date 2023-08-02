@@ -20,6 +20,7 @@ header {
   top: 0;
   right: 0;
   left: 0;
+  box-shadow: 0 0 2px black;
 }
 
 .logo-and-title {
@@ -47,7 +48,7 @@ header {
 
 /* Início - Formulário */
 #inicio {
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 #inicio h2,
@@ -57,7 +58,14 @@ header {
 } 
 
 #inicio form input[type="submit"] {
-  width: 300px;
+  width: 80px;
+  height: 25px;
+  font-size: 18px;
+  background-color: yellow;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 0 3px black;
 }
 
 #inicio form input[type="email"]{
