@@ -29,6 +29,10 @@ header {
   align-items: center;
 }
 
+.logo-and-title h1{
+  margin-left: 12px;
+}
+
 #nav-bar a {
   font-size: 25px;
   text-decoration: none;
