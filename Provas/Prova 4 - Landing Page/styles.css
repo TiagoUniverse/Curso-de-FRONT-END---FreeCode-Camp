@@ -44,6 +44,7 @@ header {
 #page-wrapper {
   position: relative;
   margin-top: 95px; /* No mínimo 75px */
+  margin-bottom: 37px;
 }
 
 /* Tudo */
@@ -142,4 +143,19 @@ header {
 
 .caracteristica-texto{
   margin-left: 40px;
+}
+
+/* FOOTER */
+footer{
+  text-align: center;
+  background-color: black;
+  padding: 7px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a{
+  color: white;
 }
