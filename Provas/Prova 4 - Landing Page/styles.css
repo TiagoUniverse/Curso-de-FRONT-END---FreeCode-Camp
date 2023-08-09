@@ -37,6 +37,7 @@ header {
   font-size: 25px;
   text-decoration: none;
   color: black;
+  margin: 20px;
 }
 
 /* Page wrapper */
@@ -129,6 +130,10 @@ header {
 .row{
   display: flex;
   margin-bottom: 20px;
+}
+
+.row:first-of-type{
+  margin-top: 30px;
 }
 
 .row:last-of-type{
