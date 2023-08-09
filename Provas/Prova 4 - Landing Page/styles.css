@@ -119,3 +119,22 @@ header {
   background-color: yellow;
   box-shadow: 0 0 3px black;
 }
+
+
+/* Caracteristicas  */
+#caracteristicas i{
+  font-size: 50px;
+}
+
+.row{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row:last-of-type{
+  margin-bottom: 40px;
+}
+
+.caracteristica-texto{
+  margin-left: 40px;
+}
