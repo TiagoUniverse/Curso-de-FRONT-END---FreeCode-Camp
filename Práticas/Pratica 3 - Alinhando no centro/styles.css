@@ -9,11 +9,12 @@ body{
     height: 100vh;
 }
 
-.welcome {
+.welcome{
     width: 100vw;
     height: 100vh;
-    background-color: red;
+    background-color: purple;
     display: flex;
+    /* Se desativar o justify-content, ele retorna pro lado esquerdo. Semelhante ao margin = 0 auto */
+    justify-content: center;
     align-items: center;
-    margin: 0 auto;
 }
