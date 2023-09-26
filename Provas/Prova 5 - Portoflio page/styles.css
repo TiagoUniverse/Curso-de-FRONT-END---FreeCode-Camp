@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+:root{
+    --main-blue : rgb(50, 50, 160);
+    --second-blue: #9898e0;
+    --main-pink :   #e098bc;
+    --navbar-color: red;
+    --text-color: white;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -20,14 +28,14 @@ body {
 
 /* NAV-BAR */
 #navBar {
-    background-color: red;
+    background-color: var(--navbar-color);
     width: 100%;
     height: 61px;
     display: flex;
     justify-content: end;
     align-items: center;
     position: fixed;
-    color: white;
+    color: var(--text-color);
     
 }
 
@@ -36,8 +44,10 @@ body {
 }
 
 .li-background:hover{
-    padding: 20.5px 0;
-    background-color: blue;
+    /* padding: 18px 0; */
+    padding-top: 25px;
+    padding-bottom: 17.5px;
+    background-color: var(--second-blue);
 }
 
 #navBar ul li {
@@ -47,19 +57,12 @@ body {
 
 #navBar ul li a {
     text-decoration: none;
+    font-size: 24px;
 }
 
 #navBar ul li a:visited {
-    color: white;
+    color: var(--text-color);
 }
-
-/* #navBar ul li:hover {
-    background-color: blue;
-} */
-
-
-
-
 
 
 
@@ -68,9 +71,10 @@ body {
 #welcome-section {
     width: 100%;
     margin: 0 auto;
-    background: linear-gradient(116deg, rgb(50, 50, 160), rgb(20, 20, 70));
+    /* background: linear-gradient(116deg, rgb(50, 50, 160), rgb(20, 20, 70)); */
+    background: linear-gradient(184deg, var(--main-blue), var(--second-blue));
     height: 100vh;
-    color: white;
+    color: var(--text-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,4 +94,14 @@ body {
 #projects{
     width: 100%;
     height: 100vh;
+    background-color: var(--main-pink);
+    /* background: linear-gradient(45deg, white 0%,  #e098bc); */
+    display: flex;
+    justify-content: center;
+    padding-top: 3cm;
+}
+
+#projects h2{
+    font-size: 34px;
+    color: var(--text-color);
 }
