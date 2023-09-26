@@ -115,4 +115,13 @@ body {
 
 .lista-projetos div{
     margin: 10px;
+    background-color: red;
+}
+
+.lista-projetos p{
+    padding: 10px;
+}
+
+.lista-projetos img{
+    width: 600px;
 }
