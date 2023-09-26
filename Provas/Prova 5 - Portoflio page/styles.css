@@ -13,6 +13,7 @@
     --navbar-color: red;
     --text-color: white;
     --project-color: #BC98E0;
+    --contact-color: rgb(134, 134, 163);
 }
 
 html {
@@ -131,4 +132,25 @@ body {
 
 .lista-projetos img{
     width: 600px;
+}
+
+
+/* PROFILE-LINK  || CONTATOS */
+
+#profile-link{
+    width: 100%;
+    height: 86vh;
+    background-color: var(--contact-color) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#profile-link h2{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 34px;
+    color: var(--text-color);
 }
