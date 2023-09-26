@@ -12,6 +12,7 @@
     --main-pink :   #e098bc;
     --navbar-color: red;
     --text-color: white;
+    --project-color: #BC98E0;
 }
 
 html {
@@ -110,12 +111,18 @@ body {
 .lista-projetos{
     display: flex;
     justify-content: center;
+    /* padding: 15px; */
     margin-top: 1cm;
 }
 
 .lista-projetos div{
     margin: 10px;
-    background-color: red;
+    background-color: var(--project-color);
+}
+
+.lista-projetos a{
+    text-decoration: none;
+    color: var(--text-color);
 }
 
 .lista-projetos p{
