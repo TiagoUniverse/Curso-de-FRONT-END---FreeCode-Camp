@@ -6,6 +6,8 @@
 
 :root{
     --text-color: white;
+    --story-div-color: black;
+    --link-color: rgb(174, 202, 255,1);
 }
 
 html{
@@ -18,7 +20,6 @@ body{
     height: 100vh;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(45deg, rgb(73, 98, 211), rgb(141, 5, 182));
 }
 
 /* TITLE-SECTION*/
@@ -39,4 +40,116 @@ body{
 
 .title-section p{
     font-size: 20px;
+}
+
+
+/* IMG-DIV */
+#img-div{
+    height: 78vh;
+    background: linear-gradient(45deg, rgb(73, 98, 211), rgb(141, 5, 182));
+    padding-top: 15px;
+    text-align: center;
+}
+
+#img-div img{
+    max-width: 993px;  
+    max-height: 800px; 
+}
+
+/* story-section */
+.story-section{
+    height: 111vh;
+    width: 100%;
+    background: linear-gradient(45deg, rgb(235, 113, 218), rgb(141, 5, 182));
+    text-align: center;
+}
+
+.story-section h2{
+    padding-top: 15px;
+}
+
+/* story-div */
+
+.story-div{
+    width: 559px;
+    height: 878px;
+    color: var(--story-div-color);
+    background-color: white;
+    margin: 1cm auto;
+    padding: 1cm;
+}
+
+.story-section a{
+    color: var(--link-color);
+}
+
+.story-section a:link{
+    color: var(--link-color);
+}
+
+.story-section a:visited{
+    color: var(--link-color);
+}
+
+
+/* MEDIA */
+
+@media (max-width: 400px) {
+    #img-div {
+        height: 58vh;
+    }
+
+    #img-div img {
+        max-width: 390px;
+        max-height: 400px;
+    }
+
+    .story-div {
+        width: 400px;
+        height: fit-content;
+    }
+
+    .story-section {
+        height: fit-content;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 987px) {
+    #img-div {
+        height: 58vh;
+    }
+
+    #img-div img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .story-div {
+        width: 400px;
+        height: fit-content;
+    }
+
+    .story-section {
+        height: fit-content;
+    }
+}
+
+@media (min-width: 989px) and (max-width: 990px) {
+    #img-div {
+        height: 58vh;
+    }
+
+    #img-div img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .story-div {
+        width: 400px;
+        height: fit-content;
+    }
+
+    .story-section {
+        height: fit-content;
+    }
 }
