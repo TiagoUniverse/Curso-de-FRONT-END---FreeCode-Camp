@@ -235,8 +235,23 @@ body {
     color: rgb(0, 0, 0);
 }
 
+/* .social-media a:link{
+    color: white;
+    text-decoration: none;
+} */
 
+.social-media a{
+    color: white;
+    text-decoration: none;
+}
 
+.social-media a:link{
+    color: white;
+}
+
+.social-media a:visited{
+    color: white;
+}
 
 
 .social-media span {
