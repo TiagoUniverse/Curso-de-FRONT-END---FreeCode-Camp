@@ -66,6 +66,10 @@ body {
     color: var(--text-color);
 }
 
+#navBar ul li a:link {
+    color: var(--text-color);
+}
+
 
 
 
@@ -148,9 +152,33 @@ body {
 }
 
 #profile-link h2{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    font-size: 34px;
+    font-size: 62px;
     color: var(--text-color);
+}
+
+#profile-link p{
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.social-media{
+    margin-top: 1cm;
+    color: var(--text-color);
+}
+
+.social-media i{
+    font-size: 60px;
+}
+
+.social-media span{
+    padding-right: 45px;
+    font-size: 18px;
+}
+
+
+/* FOOTER */
+
+footer{
+    padding: 15px;
+    text-align: center;
 }
