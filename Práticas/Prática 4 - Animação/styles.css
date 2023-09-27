@@ -43,12 +43,22 @@ body{
 }  
 
 #estrela-girando1 {
+    /* Estrela do meio */
     animation: 3s linear infinite star-animation-1;
-    padding-top: 50cm;
+    /* padding-top: 50cm; */
+    position: absolute;
+    top: 13cm;
+    left: 23cm;
 }
 
 #estrela-girando2 {
     animation: 4s linear infinite star-animation-2;
+}
+
+#estrela-girando3 {
+    animation: 3s linear infinite star-animation-1;
+    padding-top: 50cm;
+
 }
 
 
