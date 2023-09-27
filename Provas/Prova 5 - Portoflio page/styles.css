@@ -30,7 +30,7 @@ body {
 
 
 /* NAV-BAR */
-#navBar {
+#navbar {
     background-color: var(--navbar-color);
     width: 100%;
     height: 61px;
@@ -39,7 +39,7 @@ body {
     align-items: center;
     position: fixed;
     color: var(--text-color);
-
+    z-index: 2;
 }
 
 .li-background {
@@ -53,21 +53,21 @@ body {
     background-color: var(--second-blue);
 }
 
-#navBar ul li {
+#navbar ul li {
     display: inline;
     margin: 15px;
 }
 
-#navBar ul li a {
+#navbar ul li a {
     text-decoration: none;
     font-size: 24px;
 }
 
-#navBar ul li a:visited {
+#navbar ul li a:visited {
     color: var(--text-color);
 }
 
-#navBar ul li a:link {
+#navbar ul li a:link {
     color: var(--text-color);
 }
 
@@ -136,8 +136,6 @@ body {
 
 }
 
-
-
 #welcome-section h1 {
     font-size: 62px;
     transition: transform 1s ease-in-out 0ms;
@@ -150,6 +148,8 @@ body {
 #welcome-section p {
     font-size: 22px;
 }
+
+
 
 
 /* PROJETOS || PROJECTS */
@@ -195,9 +195,9 @@ body {
 }
 
 
-/* PROFILE-LINK  || CONTATOS */
+/* profile-section  || CONTATOS */
 
-#profile-link {
+#profile-section {
     width: 100%;
     height: 86vh;
     background-color: var(--contact-color);
@@ -207,12 +207,12 @@ body {
     flex-direction: column;
 }
 
-#profile-link h2 {
+#profile-section h2 {
     font-size: 62px;
     color: var(--text-color);
 }
 
-#profile-link p {
+#profile-section p {
     color: var(--text-color);
     font-size: 20px;
 }
@@ -235,21 +235,16 @@ body {
     color: rgb(0, 0, 0);
 }
 
-/* .social-media a:link{
-    color: white;
-    text-decoration: none;
-} */
-
-.social-media a{
+.social-media a {
     color: white;
     text-decoration: none;
 }
 
-.social-media a:link{
+.social-media a:link {
     color: white;
 }
 
-.social-media a:visited{
+.social-media a:visited {
     color: white;
 }
 
@@ -266,4 +261,201 @@ body {
 footer {
     padding: 12px;
     text-align: center;
+}
+
+
+/* MEDIA */
+/* A última regra de media prevalecerá. Por isso, é bom definir o minimo e o máximo */
+
+
+@media (max-width: 767px) {
+
+     /* welcome */
+     #welcome-section h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #welcome-section h1:hover {
+        transform: scale(1.1);
+    }
+
+    /* Projetos */
+    #projects {
+        padding: 20px;
+        height: fit-content;
+    }
+
+    #projects h2 {
+        font-size: 26px;
+    }
+
+    .lista-projetos img {
+        width: 250px;
+    }
+
+
+    .lista-projetos {
+        margin-top: 20px;
+    }
+
+    .lista-projetos {
+        display: block;
+    }
+
+
+    /* Navbar */
+    #navbar {
+        width: 100vw;
+        background-color: red;
+    }
+
+
+    /* profile section */
+    #profile-section {
+        height: 100vh;
+        text-align: center;
+    }
+
+    #profile-section h2 {
+        padding-top: 2cm;
+    }
+
+    .social-media {
+        display: inline-grid;
+    }
+
+
+
+    .social-media i {
+        padding-bottom: 15px;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+    /* welcome */
+    #welcome-section h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #welcome-section h1:hover {
+        transform: scale(1.1);
+    }
+
+    /* Projetos */
+    #projects {
+        padding: 20px;
+        height: fit-content;
+    }
+
+    #projects h2 {
+        font-size: 26px;
+    }
+
+    .lista-projetos img {
+        width: 250px;
+    }
+
+
+    .lista-projetos {
+        margin-top: 20px;
+    }
+
+    .lista-projetos {
+        display: block;
+    }
+
+
+    /* Navbar */
+    #navbar {
+        width: 100vw;
+        background-color: red;
+    }
+
+
+    /* profile section */
+    #profile-section {
+        height: 100vh;
+        text-align: center;
+    }
+
+    .social-media {
+        display: inline-grid;
+    }
+
+
+
+    .social-media i {
+        padding-bottom: 15px;
+    }
+}
+
+
+
+
+@media (min-width: 769px) and (max-width: 1800px) {
+
+    /* welcome */
+    #welcome-section h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    #welcome-section h1:hover {
+        transform: scale(1.1);
+    }
+
+    /* Projetos */
+    #projects {
+        padding: 20px;
+        height: fit-content;
+    }
+
+    #projects h2 {
+        font-size: 30px;
+    }
+
+    .lista-projetos img {
+        width: 600px;
+    }
+
+
+    .lista-projetos {
+        margin-top: 20px;
+    }
+
+    .lista-projetos {
+        display: block;
+    }
+
+
+    /* Navbar */
+    #navbar {
+        width: 100vw;
+        background-color: red;
+    }
+
+
+    /* profile section */
+    #profile-section {
+        height: 100vh;
+        text-align: center;
+    }
+
+    /* .social-media {
+        display: inline-grid;
+    } */
+
+
+
+    .social-media i {
+        padding-bottom: 15px;
+    }
 }
