@@ -168,6 +168,9 @@ body {
 
 .social-media i{
     font-size: 60px;
+    animation-name: social-media-animation;
+    /* transition: transform 0.3s ease-out; */
+    animation: 3s linear infinite social-media-animation;
 }
 
 .social-media span{
@@ -176,9 +179,17 @@ body {
 }
 
 
+@keyframes social-media-animation{
+    10%{
+        transform: rotate(110deg) scaleX(-1);
+    }
+}
+
+
+
 /* FOOTER */
 
 footer{
-    padding: 15px;
+    padding: 12px;
     text-align: center;
 }
