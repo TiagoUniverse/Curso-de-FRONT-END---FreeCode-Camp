@@ -56,6 +56,13 @@ body{
     max-height: 800px; 
 }
 
+/* Código para o curso do Freecodecamp abaixo */
+/* #img-div #image{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+} */
+
 /* story-section */
 .story-section{
     height: 111vh;
